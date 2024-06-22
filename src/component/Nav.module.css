@@ -173,6 +173,9 @@ a{
   }
   #navbar li {
     padding: 0px 5px;
+    }
+  #navbar{
+    height:30vh;
   }
 }
 
