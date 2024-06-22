@@ -1,0 +1,246 @@
+
+
+.welcome{
+    height: 380px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+.welcome>#content{
+    height: 100%;
+    width: 50%;
+    /* border: 3px solid black; */
+}
+#content>.line1{
+    font-size: 42px;
+    margin-left: 40px;
+    font-weight: 900;
+    margin-top: 40px;
+    color: gray;
+}
+#content>.line2{
+    font-size: 32px;
+    margin-left: 40px;
+    font-weight: 800;
+    color: plum;
+}
+#content>.line3{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color:  #7d7c7c;
+    line-height:30px;
+}
+#content>.Button1,.Button2{
+    height: 40px;
+    width: 180px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Button1{
+    background-color: plum;
+    color: white;
+    border: 2px solid white;
+}
+.Button2{
+    background-color: #FAFBFF;
+    color: plum;
+    border: 2px solid plum;
+}
+#img{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid green; */
+    background-image: url("./Kannan.jpeg");
+    background-size: stretch;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.Column{
+    height: 100px;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    margin-left: 5%;
+    /* box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02); */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    display: none;
+    
+}
+.Column>p{
+    margin-left: 30px;
+    font-size: 16px;
+}
+.Column>p>span{
+    font-size: 16px;
+}
+.Column>p>u{
+    cursor: pointer;
+}
+@media only screen and (min-width:1024px) {
+    
+}
+@media only screen and (min-width:768px) and (max-width:1024) {
+    
+    .welcome{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .welcome>#content{
+        width: 90%;
+    }
+    .welcome>#img{
+        width: 10%;
+    }
+}
+
+@media only  screen and (min-width:680px) and (max-width: 768px) {
+
+    .welcome{
+        display: block;
+        height: 380px;
+        width: 90%;
+        margin-left: 5%;
+        /* display: flow-root; */
+    }
+    .welcome>#content{
+        width: 100%;
+    }
+    .welcome>#img{
+        display: none;
+        width: 100%;
+    }
+    #content>.line1{
+        margin-left:30px;
+        font-size: 38px;
+        margin-top: 10px;
+    }
+    #content>.line2{
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    #content>.line3{
+        margin-left:30px;
+        font-size:16px;
+    }
+    #content>.Button1{
+        width:130px;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    #content>.Button2{
+        width: 130px;
+        font-size: 16px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media only screen and (min-width:375px) and (max-width:680px) {
+
+    .welcome{
+        display: block;
+        height: 380px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .welcome>#content{
+        width: 100%;
+        /* border: 3px solid red; */
+    }
+    #content>.line1{
+        margin-left:30px;
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    #content>.line2{
+        margin-left: 30px;
+        font-size: 28px;
+    }
+    #content>.line3{
+        margin-left: 30px;
+        font-size:16px;
+    }
+    #content>.Button1{
+        width:130px;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    #content>.Button2{
+        width: 130px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    .welcome>#img{
+        /* height: 100%; */
+        border: 2px solid black;
+        background-size:stretch;
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 90%;
+        margin-left: 5%;
+        display: none;
+    }
+    
+    .Column{
+            height: 60px;
+            margin-top:20px;
+            /* display:none; */
+    }
+    .Column>p{
+        margin-left:4px;
+    }
+    .Column>p>span{
+        font-size: 14px;
+    }
+    .Column>p>u{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    
+    .welcome{
+        height: 480px;
+        width: 90%;
+        margin-left: 0px;
+        display: block;
+    }
+    .welcome>#content{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+    #content>.Button1,.Button2{
+        width: 90px;
+        font-size: 12px;
+    }
+    #img{
+        display: none;
+    }
+    #feature{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 2%;
+    }
+    .Column{
+        display: none;
+    }
+}
