@@ -17,8 +17,8 @@ return (
 
           </div>
           <div className={style.detail}>
-              <p className={style.line1}>Bachelor of technology</p>
-              <p className={style.line2}>IT from Ponjesly Collage of Engineering Nagercoil</p>
+              <p className={style.line1}>information technology</p>
+              <p className={style.line2}>Ponjesly College of Engineering Nagercoil</p>
               <p className={style.line2}>Anna university | 7.9 </p>
           </div>
         </div>
