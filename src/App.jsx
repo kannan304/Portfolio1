@@ -36,7 +36,7 @@
 
 import React from 'react';
 import Nav from './component/Nav';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 import Home from './component/Home';
 import Aboutme from './component/Aboutme';
 import Skills from './component/Skills';
