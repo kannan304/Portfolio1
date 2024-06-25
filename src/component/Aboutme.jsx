@@ -19,7 +19,7 @@ return (
 
         <div className={style.contentBox} data-aos="fade-up" data-aos-offset="0" data-aos-once="false" >
           <div className={style.class}>
-              <p className={style.head1}>Pg Degree <br/> <span>2019-2023</span></p>
+              <p className={style.head1}>ug Degree <br/> <span>2019-2023</span></p>
               
           </div>
           <div className={style.vl}>
