@@ -1,4 +1,4 @@
-import Nav from "./Nav"
+
 import style from "./Home.module.css"
 import React, { useEffect } from 'react'
 import Aos from "aos"
