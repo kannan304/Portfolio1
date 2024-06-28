@@ -14,7 +14,7 @@ const Contact = () => {
 
 
     return (
-    <div className={styles.container} data-aos="zoom-in" data-aos-once="false" >
+    <div className={styles.container} data-aos="fade-up" data-aos-once="false" >
 
       <p className={styles.title}>Contact Us</p>
 
