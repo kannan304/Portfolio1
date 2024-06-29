@@ -39,7 +39,7 @@ body {
   backdrop-filter: blur(15px);
   box-shadow:  opx opx 30px rgba(227,228,237,0.37);
   border: 2px solid rgba(255,255,255,0.18);
-  position:fixed;
+  
 }
 
 #Nav.fixed {
