@@ -128,6 +128,7 @@ section {
   }
 }
 @media only screen and (max-width:480px){
+  
   .content h2{
   
     font-size: 20px;
@@ -137,6 +138,6 @@ section {
     padding-bottom: 20px;
   
 }
-
+}
 
 
