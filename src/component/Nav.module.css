@@ -201,6 +201,9 @@ a{
     font-size: 24px;
     cursor: pointer;
   }
+  #navbar{
+    height: 320px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -210,9 +213,7 @@ a{
   #navbar li {
     padding: 0px 20px;
   }
-  #navbar{
-    height: 40vh;
-  }
+
 }
 
 
